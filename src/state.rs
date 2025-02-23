@@ -3,9 +3,9 @@ use std::collections::HashMap;
 use std::sync::RwLock;
 
 use crate::book::Book;
+use crate::constants::*;
 use crate::error::MyError;
 use crate::message::Message;
-use crate::constants::*;
 
 pub struct AppState {
     books: RwLock<HashMap<String, Book>>,

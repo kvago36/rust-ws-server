@@ -1,7 +1,7 @@
 use serde::{Deserialize, Serialize};
 
-use crate::{Message, MyError};
 use crate::constants::*;
+use crate::{Message, MyError};
 
 #[derive(Deserialize, Serialize, Clone)]
 pub struct Book {
